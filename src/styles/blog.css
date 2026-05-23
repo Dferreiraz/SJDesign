@@ -1,0 +1,23 @@
+@import url(./global.css);
+
+.container-design {
+    display: flex
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    background: var(--color-grey);
+}
+
+.content-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.content-design h2{
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
+}
+
